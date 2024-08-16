@@ -1,10 +1,10 @@
 # os-specific listings first
-yaml https://gitee.com/zhao-xuzuo/rosdistro/raw/master/rosdep/osx-homebrew.yaml osx
-
+#yaml https://gitee.com/zhao-xuzuo/rosdistro/raw/master/rosdep/osx-homebrew.yaml osx
+yaml https://github.com/szu-zy/ros_depend_github/raw/master/rosdep/osx-homebrew.yaml osx
 # generic
-yaml https://gitee.com/zhao-xuzuo/rosdistro/raw/master/rosdep/base.yaml
-yaml https://gitee.com/zhao-xuzuo/rosdistro/raw/master/rosdep/python.yaml
-yaml https://gitee.com/zhao-xuzuo/rosdistro/raw/master/rosdep/ruby.yaml
-gbpdistro https://gitee.com/zhao-xuzuo/rosdistro/raw/master/releases/fuerte.yaml fuerte
+yaml https://github.com/szu-zy/ros_depend_github/raw/master/rosdep/base.yaml
+yaml https://github.com/szu-zy/ros_depend_github/raw/master/rosdep/python.yaml
+yaml https://github.com/szu-zy/ros_depend_github/raw/master/rosdep/ruby.yaml
+gbpdistro https://github.com/szu-zy/ros_depend_github/raw/master/releases/fuerte.yaml fuerte
 
 # newer distributions (Groovy, Hydro, ...) must not be listed anymore, they are being fetched from the rosdistro index.yaml instead
